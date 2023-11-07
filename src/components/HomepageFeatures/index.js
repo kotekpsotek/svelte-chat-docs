@@ -34,6 +34,35 @@ const FeatureList = [
     ),
   },
 ];
+const NewFeaturesList = [
+  {
+    title: "Easy to Use",
+    Svg: require('@site/static/img/dancing-in-the-rain.svg').default,
+    description: (
+      <>
+        <b>@svelte-chat</b> is increadibely easy to embed in your app. You can do this as <u>fast as last make a sandwitch with cheese and tomato</u>
+      </>
+    )
+  },
+  {
+    title: "Agile",
+    Svg: require('@site/static/img/agile-cat.svg').default,
+    description: (
+      <>
+        Your clients has got incredibly strong tool to give case and you have all in one spot for simple management
+      </>
+    )
+  },
+  {
+    title: "Cipernitically fast",
+    Svg: require('@site/static/img/logo-svelte.svg').default,
+    description: (
+      <>
+        Take adventage from tool made with help, one of the fastest JavaScript Frameworks
+      </>
+    )
+  }
+]
 
 function Feature({Svg, title, description}) {
   return (
@@ -54,7 +83,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {NewFeaturesList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>

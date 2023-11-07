@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-svelte.svg',
       navbar: {
-        title: 'My Site',
+        title: 'Main Page',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-svelte.svg',
         },
         items: [
           {
@@ -80,8 +80,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: "left" },
           {
-            href: "https://github.com/kotekpsotek/svelte-chat",
-            // href: 'https://github.com/kotekpsotek/@svelte-chat', TODO:
+            href: "/githubPick",
             label: 'GitHub',
             position: 'right',
           },
@@ -121,12 +120,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: '/githubPick',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} @svelte-chat, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -14,7 +14,7 @@ Add to your *sveltekit-app* complex chat in **less then 10 minutes**
 
 ## Getting Started
 
-Always you get started by [**instalation all deps**](/docs/Instalation).
+Always you get started by [**instalation all deps**](/docs/Instalation/automated).
 
 ## @svelte-chat in Your Code
 

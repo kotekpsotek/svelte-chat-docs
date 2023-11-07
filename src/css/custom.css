@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+div.buttons-div {
+  padding: 5px;
+  margin-top: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.buttons-div button {
+  width: 450px;
+  height: 150px;
+}
